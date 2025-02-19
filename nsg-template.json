@@ -12,7 +12,7 @@
     },
     "sourceIP": {
       "type": "string",
-      "defaultValue": "52.228.67.65/32"
+      "defaultValue": "PUBLIC_IP_OF_VM/32"
     }
   },
   "resources": [
