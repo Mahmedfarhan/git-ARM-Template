@@ -21,7 +21,7 @@ The files are uploaded in the repository to downlaod and perform the task.
 2. Deploy the **Windows VM** using `template.json`.
 3. Command to deploy is:
 ```bash
-az deployment group create --resource-group RG-name --template-file azuredeploy.json --parameters vmName=MyWinVM adminUsername=AdminUser adminPassword="YourSecureP@ssword" subnetName=YourSubnetName
+az deployment group create --resource-group RG-name --template-file template.json --parameters vmName=MyWinVM adminUsername=AdminUser adminPassword="YourSecureP@ssword" subnetName=YourSubnetName
 ```
 4. Find out the Public IP of the VM and copy it to the `nsg-template.json` file.
 5. Deploy the **NSG** using the `nsg-template.json`.
